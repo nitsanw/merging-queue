@@ -29,7 +29,7 @@ public class MergingDeque<KEY, VAL> {
 	public void offer(KEY key, VAL val) {
 		assert key != null && val != null;
 		VAL lastVal = lastValMap.put(key, val);
-		if (lastVal != null) {
+		if (lastVal == null) {
 			keyQueue.add(key);
 		}
 	}
