@@ -24,7 +24,7 @@ public class ArrayMergingDeque<KEY, VAL> implements MergingQueue<KEY, VAL> {
 		//   of keys this means you'll hit max capacity required in a short while and be done.
 		// - keys are kept for the lifetime of the map, if you were hoping for them to get
 		//   picked up by the GC then you'll need to go another way
-		return lastValMap.put(keyQueue.pollLast(),null);
+		return lastValMap.put(keyQueue.pollFirst(),null);
 	}
 
 	@Override
