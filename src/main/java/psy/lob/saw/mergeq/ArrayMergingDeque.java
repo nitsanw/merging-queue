@@ -1,4 +1,4 @@
-package com.pls.mergeq;
+package psy.lob.saw.mergeq;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;

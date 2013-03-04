@@ -1,4 +1,7 @@
-package com.pls.mergeq;
+package psy.lob.saw.mergeq;
+
+import psy.lob.saw.mergeq.ArrayMergingDeque;
+import psy.lob.saw.mergeq.MergingQueue;
 
 public class ArrayMergingDequeTest extends MergingQueueTest {
 	@Override

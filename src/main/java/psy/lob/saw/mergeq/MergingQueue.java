@@ -1,4 +1,4 @@
-package com.pls.mergeq;
+package psy.lob.saw.mergeq;
 
 /**
  * A merging FIFO queue. The entries are merged on a key and so the queue interface

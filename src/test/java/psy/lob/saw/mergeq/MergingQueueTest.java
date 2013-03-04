@@ -1,8 +1,10 @@
-package com.pls.mergeq;
+package psy.lob.saw.mergeq;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import psy.lob.saw.mergeq.MergingQueue;
 
 public abstract class MergingQueueTest {
 	@Test
